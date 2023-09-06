@@ -22,8 +22,8 @@
 }
 
 .navbar-logo img {
-    height: 170px;
-    width: 170px;
+    height: 125px;
+    width: 125px;
 }
 
 .navbar-links a span {
@@ -245,6 +245,51 @@
     text-align: center;
     color: rgb(97, 97, 97);
 }
+
+
+/* Features Section */
+
+.features-container {
+    font-family: 'Poppins', sans-serif;
+    height: 1000px;
+}
+
+.features-title {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.features-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.features-title span {
+    color: #87e475;
+    font-size: 45px;
+}
+
+.features-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features-div ul {
+    list-style-type: none;
+}
+
+.features-list li {
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.features-list .fa {
+    font-size: 24px;
+    color: #87e475;
+    margin-right: 10px;
+}
+
 
 
 /* Direct Call to Action Section */
